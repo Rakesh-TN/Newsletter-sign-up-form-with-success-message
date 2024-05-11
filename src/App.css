@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+  background-color: hsl(235, 18%, 26%);
+  font-family: "Roboto", sans-serif;
+}
+h1{
+  font-size: 50px;
+}
+.vaildate{
+  display: flex;
+  flex-wrap: wrap;
+  height: 10px;
+  justify-content: space-between;
+}
+.error-state{
+  color: red;
+  
+}
+.mainPhase{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.subPhase{
+  display: flex;
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px;
+}
+.listPoints{
+  list-style: url(./assets/images/icon-list.svg);
+}
+.firstPhase{
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.imgSize{
+  height: 400px;
+}
+.secondPhase{
+  margin: auto;
+}
+.inputEmail{
+  display: grid;
+}
+.input-field{
+  margin-top: 10px;
+  height: 30px;
+  width: 250px;
+}
+.label-style{
+  font-size: 13px;
+}
+.btn{
+  margin-top: 25px;
+  height: 40px;
+  width: 260px;
+  font-size: 14px;
+  color: white;
+  background-color: hsl(234, 29%, 20%);
+  border-color: hsl(234, 29%, 20%);
+  border-radius: 5px;
+}
+.btn:hover{
+  background: linear-gradient(90deg, rgba(255,0,150,1) 0%, rgba(255,0,69,1) 65%);
+  border-color: linear-gradient(90deg, rgba(255,0,150,1) 0%, rgba(255,0,69,1) 65%);;
+}
+
+.subPhaseDot{
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px;
+  width: 25%;
+}
+.secondPhaseDot p {
+  color: hsl(231, 7%, 60%);
+}
+span{
+  color: hsl(234, 29%, 20%);
+  font-weight: bold;
+}
+.btn-fit{
+  width: 375px;
+}
