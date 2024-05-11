@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react'
-import sideImage from './assets/images/illustration-sign-up-desktop.svg'
+import sideImagedesktop from './assets/images/illustration-sign-up-desktop.svg'
+import sideImagemobile from './assets/images/illustration-sign-up-mobile.svg'
 import successIcon from './assets/images/icon-success.svg'
 
 function Signup() {
@@ -77,7 +78,10 @@ function Signup() {
                 <button className='btn'  onClick={submitEmail}>Subscribe to monthly newsletter</button>
               </div>
               <div className='secondPhase'>
-                <img src={sideImage} className='imgSize' />
+                <picture>
+                  <source media='(max-width: 600px)' srcSet={sideImagemobile}/>
+                  <img src={sideImagedesktop} className='imgSize'/>
+                </picture>
               </div>
             </div>
           </main>
